@@ -1,3 +1,5 @@
+//Exercise 1: ReverseWord
+ 
 #include <iostream>
 #include <string.h>
 using namespace std;
@@ -9,6 +11,7 @@ int main()
     cout << "Please enter a word: "; 
     cin>>str; //input string
     len=strlen(str);
+    string userInput=str;
     i=0;
     while(i<len/2){
         temp=str[i];
@@ -16,7 +19,7 @@ int main()
         str[len-i-1]=temp;
  i++;
     }
-   cout<<" spelt backwards is: "<<str;
+   cout<< userInput<<" spelt backwards is: "<<str;
     
     return 0;
 }
