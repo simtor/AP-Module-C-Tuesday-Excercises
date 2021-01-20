@@ -10,7 +10,7 @@ int main()
     cout << "Hello, Welcome to ReverseWord\n";
     cout << "Please enter a word: "; 
     cin>>str; //input string
-    len=strlen(str);
+    len=strlen(str);//mesures the length of the string 
     string userInput=str;
     i=0;
     //While loop that convert the input backwards
