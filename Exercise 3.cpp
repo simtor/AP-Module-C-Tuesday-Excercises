@@ -1,6 +1,8 @@
+//Exercise 3: Palindrome Checker
 #include <iostream>
 #include <stdio.h>
 #include <string.h>
+#include <algorithm>
 using namespace std;
 
 int main(){
@@ -8,7 +10,7 @@ int main(){
     int i, length;
     int flag = 0;
     
-    cout << "Enter a string: "; cin >> string1;
+    cout << "Please enter a word:"; cin >> string1;
     
     length = strlen(string1);
     
@@ -19,11 +21,12 @@ int main(){
    }
 }
     if (flag) {
-        cout << string1 << " is not a palindrome" << endl; 
+        cout << "Sorry,"<< "'"<<string1 <<"'"<< " is not a palindrome" << endl; 
     }    
     else {
-        cout << string1 << " is a palindrome" << endl; 
+        cout << "Yes,"<< "'"<<string1 <<"'"<< " is a palindrome" << endl;  
     }
-    system("pause");
+    main();
     return 0;
 }
+
