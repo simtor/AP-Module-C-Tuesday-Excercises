@@ -8,7 +8,7 @@ Task completed:
 * Exercise 2: LowerCase Converter: COMPLETED
 * Exercise 3: Palindrome Checker: COMPLETED
 
-Primers Portfolio Challenges:/
+Primers Portfolio Challenges:\
 Tuesday:
 * Primer Challenge 1: Password Validator: COMPLETED
 * Primer Challenge 2: Password Complexity: COMPLETED
